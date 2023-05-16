@@ -21,9 +21,9 @@ public class Usuario {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        String database = "develop";
+        String database = "Proyecto";
         String user = "root";
-        String password = "ROOT";
+        String password = "root";
 
         String url = "jdbc:mysql://localhost:3306/" + database + "?user=" + user + "&password=" + password;
         Connection conexion = DriverManager.getConnection(url);
