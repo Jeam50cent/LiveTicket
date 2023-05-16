@@ -9,7 +9,7 @@ public class MedioDePago {
     public String MedioDePago() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        String database = "develop";
+        String database = "Proyecto";
         String user = "root";
         String password = "root";
 
